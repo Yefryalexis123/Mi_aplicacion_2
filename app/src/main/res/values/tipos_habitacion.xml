@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Tipos_habitaciones">
+        <item>Tipo Habitacion</item>
+        <item>Habitacion Individual</item>
+        <item>Habitacion Doble</item>
+        <item>Suite</item>
+        <item>Junior Suite</item>
+    </string-array>
+</resources>

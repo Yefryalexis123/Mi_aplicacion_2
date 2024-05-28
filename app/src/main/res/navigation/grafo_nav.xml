@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grafo_nav"
+    app:startDestination="@id/fragment_inicio">
+
+    <fragment
+        android:id="@+id/fragment_inicio"
+        android:name="moviles2.mi_aplicacion_2.fragment_inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_fragment_inicio_to_fragment_inicio_sesion"
+            app:destination="@id/fragment_inicio_sesion" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_inicio_sesion"
+        android:name="moviles2.mi_aplicacion_2.fragment_inicio_sesion"
+        android:label="fragment_inicio_sesion"
+        tools:layout="@layout/fragment_inicio_sesion" >
+        <action
+            android:id="@+id/action_fragment_inicio_sesion_to_fragment_menu"
+            app:destination="@id/fragment_menu" />
+        <action
+            android:id="@+id/action_fragment_inicio_sesion_to_fragment_register2"
+            app:destination="@id/fragment_register2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_register"
+        android:name="moviles2.mi_aplicacion_2.fragment_register"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/fragment_register2"
+        android:name="moviles2.mi_aplicacion_2.fragment_register2"
+        android:label="fragment_register2"
+        tools:layout="@layout/fragment_register2" />
+    <fragment
+        android:id="@+id/fragment_menu"
+        android:name="moviles2.mi_aplicacion_2.fragment_menu"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_fragment_menu_to_fragment_inicio_sesion"
+            app:destination="@id/fragment_inicio_sesion" />
+    </fragment>
+</navigation>

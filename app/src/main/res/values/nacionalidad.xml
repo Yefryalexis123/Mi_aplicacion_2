@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nacionalidad">
+        <item>  Selecciona</item>
+        <item>	Afganistán	</item>
+        <item>	Alemania	</item>
+        <item>	Arabia Saudita	</item>
+        <item>	Argentina	</item>
+        <item>	Australia	</item>
+        <item>	Bélgica	</item>
+        <item>	Bolivia	</item>
+        <item>	Brasil	</item>
+        <item>	Camboya	</item>
+        <item>	Canadá	</item>
+        <item>	Chile	</item>
+        <item>	China	</item>
+        <item>	Colombia	</item>
+        <item>	Corea	</item>
+        <item>	Costa Rica	</item>
+        <item>	Cuba	</item>
+        <item>	Dinamarca	</item>
+        <item>	Ecuador	</item>
+        <item>	Egipto	</item>
+        <item>	El Salvador	</item>
+        <item>	Escocia	</item>
+        <item>	España	</item>
+        <item>	Estados Unidos	</item>
+        <item>	Estonia	</item>
+        <item>	Etiopia	</item>
+        <item>	Filipinas	</item>
+        <item>	Finlandia	</item>
+        <item>	Francia	</item>
+        <item>	Gales	</item>
+        <item>	Grecia	</item>
+        <item>	Guatemala	</item>
+        <item>	Haití	</item>
+        <item>	Holanda	</item>
+        <item>	Honduras	</item>
+        <item>	Indonesia	</item>
+        <item>	Inglaterra	</item>
+        <item>	Irak	</item>
+        <item>	Irán	</item>
+        <item>	Irlanda	</item>
+        <item>	Israel	</item>
+        <item>	Italia	</item>
+        <item>	Japón	</item>
+        <item>	Jordania	</item>
+        <item>	Laos	</item>
+        <item>	Letonia	</item>
+        <item>	Lituania	</item>
+        <item>	Malasia	</item>
+        <item>	Marruecos	</item>
+        <item>	México	</item>
+        <item>	Nicaragua	</item>
+        <item>	Noruega	</item>
+        <item>	Nueva Zelanda	</item>
+        <item>	Nueva Zelandia	</item>
+        <item>	Panamá	</item>
+        <item>	Paraguay	</item>
+        <item>	Perú	</item>
+        <item>	Polonia	</item>
+        <item>	Portugal	</item>
+        <item>	Puerto Rico	</item>
+        <item>	Republica Dominicana	</item>
+        <item>	Rumania	</item>
+        <item>	Rusia	</item>
+        <item>	Suecia	</item>
+        <item>	Suiza	</item>
+        <item>	Tailandia	</item>
+        <item>	Taiwán	</item>
+        <item>	Turquía	</item>
+        <item>	Ucrania	</item>
+        <item>	Uruguay	</item>
+        <item>	Venezuela	</item>
+        <item>	Vietnam	</item>
+
+    </string-array>
+</resources>

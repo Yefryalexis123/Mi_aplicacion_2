@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MajesticView</string>
+    <string name="txtLogin">Ingresar</string>
+    <string name="login_in">Iniciar Sesión</string>
+    <string name="input_usuario">Correo</string>
+    <string name="btSing_in">Resgistrarse</string>
+    <string name="txtPassword">Contraseña</string>
+    <string name="txtMail">Correo</string>
+    <string name="txtWelcome">Bienvenido</string>
+    <string name="btNext">Siguiente</string>
+    <string name="idpersonalInformation">Informacion Personal</string>
+    <string name="idtelephone">Numero telefonico</string>
+    <string name="iddateBirth">Fecha de nacimiento</string>
+    <string name="idemail">Correo</string>
+    <string name="idMale">Maculino</string>
+    <string name="idFamale">Femenino</string>
+    <string name="idUndefined">No definido</string>
+    <string name="idTerms">Aceptar terminos y condiciones</string>
+    <string name="idCreat">Crear una cuenta de MajesticView</string>
+    <string name="idEnter">Ingrese su nombre</string>
+    <string name="idName">Nombre</string>
+    <string name="idLastname">Apellido</string>
+    <string name="idRegistter">Registrarse</string>
+</resources>

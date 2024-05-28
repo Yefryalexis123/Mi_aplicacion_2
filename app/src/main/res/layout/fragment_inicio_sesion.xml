@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abstract_envelope"
+    android:orientation="vertical"
+    android:padding="48dp"
+    tools:context=".fragment_inicio_sesion">
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="420dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:fontFamily="@font/bungee_shade"
+        android:text="@string/txtLogin"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/material_dynamic_primary10"
+        android:textSize="65sp" />
+
+    <EditText
+        android:id="@+id/txtMail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:hint="@string/txtMail"
+        android:inputType="text"
+        android:textColorHint="@color/material_dynamic_primary10"
+        android:textColorLink="@color/design_default_color_primary" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/txtPassword"
+        android:inputType="textPassword"
+        android:textColorHint="@color/material_dynamic_primary10"
+        android:textColorLink="@color/black" />
+
+    <Button
+        android:id="@+id/btLogin_in"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:backgroundTint="@android:color/system_accent1_800"
+        android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+        android:text="@string/login_in"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:targetApi="s" />
+
+    <Button
+        android:id="@+id/btSing_in"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@android:color/system_accent1_800"
+        android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+        android:text="@string/btSing_in"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:targetApi="s" />
+
+    <TextView
+        android:id="@+id/texto_olvidaste_contrasena"
+        android:layout_width="296dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="Did you forget your password?"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/material_dynamic_primary10" />
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abstract_envelope"
+    tools:context=".fragment_inicio">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/btNext"
+        android:layout_width="193dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:backgroundTint="@android:color/system_accent1_800"
+        android:text="@string/btNext"
+        android:textColor="@color/white"
+        tools:targetApi="s" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="353dp"
+        android:layout_gravity="center"
+        android:contentDescription="Imagen el logotipo de la app es un lobo"
+        app:srcCompat="@drawable/wolf_2323884" />
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="538dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:fontFamily="@font/bungee_shade"
+        android:text="@string/txtWelcome"
+        android:textAlignment="center"
+        android:textColor="@color/material_dynamic_primary10"
+        android:textSize="65dp" />
+
+</FrameLayout>
